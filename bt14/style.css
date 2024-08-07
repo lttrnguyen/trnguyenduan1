@@ -1,0 +1,34 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-color: rgb(193, 255, 255);
+  border: solid 0.1rem;
+}
+h1:only-of-type:not(div h1) {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 3rem;
+}
+ul {
+  border: solid 1px;
+  width: 50rem;
+  height: 40rem;
+  font-size: 2rem;
+  margin-left: 15rem;
+}
+div {
+  border: solid 0.1rem;
+  width: 50rem;
+  height: 40rem;
+}
+h3 + p {
+  text-align: center;
+}
+h2:nth-child(2) {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
